@@ -250,5 +250,27 @@ down;
     transform: translate(-50%,-50%);
 
 }
-.search {
+.p {
+    color: #6A0CC5;
+}
+.header {
+    background-color: #642ED8;
+    height: 51px;
+    width: auto;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+.headertt {
+    width: auto;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 14px;
+    opacity: 1;
+    text-decoration: none;
+}
+.hhhh {
+    position: relative;
+    top: -76px;
+    left: 50%;
+
 }
