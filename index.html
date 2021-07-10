@@ -7,14 +7,24 @@
 	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 
 <link href="css.css" rel="stylesheet" type="text/css">
+<link href="app.css" rel="stylesheet" type="text/css">
 </head>
-	
+
 <h3 class="h center">Kempy search</h3>
 	
-<body class="h round">
-	
-	<script async src="https://cse.google.com/cse.js?cx=d0a2c4acacefd8029"></script>
+<body class="h">
+	<div id="search-box">
+	<script async src="https://cse.google.com/cse.js?cx=d0a2c4acacefd8029">
+	(function()
+	window.onload = function()
+     { 
+       var searchBox =  document.getElementById("gsc-i-id1");
+       searchBox.placeholder="Kempy Search";
+       searchBox.title="Kempy Search"; 
+     }</script>
 	<div class="gcse-searchbox-only" data-resultsUrl="sr"></div>
+		</div>
+
 </body>
 
 </html>

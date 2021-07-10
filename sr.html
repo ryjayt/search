@@ -5,13 +5,24 @@
 <meta charset="utf-8">
 <title>K - Search Results</title>
 <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+<link href="app.css" rel="stylesheet" type="text/css">
 </head>
 <header class="header"><h3 class="headertt"><a href="index.html" class="headertt">Home</a> <a href="Welcome.html" class="headertt">Welcome</a>
 	</h3>
 </header>
 <body>
-  <script async src="https://cse.google.com/cse.js?cx=d0a2c4acacefd8029"></script>
-<div class="gcse-searchbox-only" data-resultsUrl="sr"></div>
+  	<div id="search-box">
+	<script async src="https://cse.google.com/cse.js?cx=d0a2c4acacefd8029">
+	(function()
+	window.onload = function()
+     { 
+       var searchBox =  document.getElementById("gsc-i-id1");
+       searchBox.placeholder="Kempy Search";
+       searchBox.title="Kempy Search"; 
+     }</script>
+	<div class="gcse-searchbox-only" data-resultsUrl="sr"></div>
+		</div>
+
 <script async src="https://cse.google.com/cse.js?cx=d0a2c4acacefd8029"></script>
 <div class="gcse-searchresults-only"></div>
 </body>
