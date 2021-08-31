@@ -260,6 +260,12 @@ down;
     border-radius: 9px;
     margin-bottom: 20px;
 }
+text {
+    top: 107px;
+    left: 33px;
+
+}
+
 .headertt {
     width: auto;
     color: #FFFFFF;
@@ -275,4 +281,12 @@ down;
 
 }
 .h.round .gcse-searchbox-only {
+}
+.text {
+}
+.textp {
+    position: relative;
+    font-size: 36px;
+    top: 316px;
+    left: 1609px;
 }

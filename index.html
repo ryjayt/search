@@ -4,21 +4,76 @@
 <head>
 <meta charset="utf-8">
 <title>Kempy search </title>
-	<meta name="description" content="We Manually index sites so you know you will get what your looking for, and wont have a bunch on unofficial sites" />
-<meta content="Embed Title" property="og:Kempy Search" />
-    <meta content="Site Description" property="og:WE Manuly index sites so you know you will get what your looking for, and wont have a bunch on unofficial sites" />
-    <meta content="https://embed.com/this-is-the-site-url" property="og:kempy.ga" />
-    <meta content="https://embed.com/embedimage.png" property="og:images/favicon.ico" />
-    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
 	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+	html,
+body {
+  margin: 0;
+}
+
+.banner {
+  background: #8a26d1;
+}
+
+.banner__content {
+  padding: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner__text {
+  flex-grow: 1;
+  line-height: 1.4;
+  font-family: "Quicksand", sans-serif;
+}
+
+.banner__close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.banner__text,
+.banner__close > span {
+  color: #ffffff;
+}
+
+	</style>
+<body>
+  <div class="banner">
+    <div class="banner__content">
+      <div class="banner__text">
+        <strong>Kempy News</strong> we have stoped developing kempy search, and as of the 3rd of sep 2021 will will move to search.kempy.ga and the mail url will be used for somthing els. kempy search will still work, but 3rd will be out last update. for now atleast.
+		  
+      </div>
+      <button class="banner__close" type="button">
+        <span class="material-icons">
+          close
+        </span>
+      </button>
+    </div>
+  </div>
+	</body>
+	<script>
+	document.querySelector(".banner__close").addEventListener("click", function () {
+  this.closest(".banner").style.display = "none";
+});
+
+	</script>
+
 
 <link href="css.css" rel="stylesheet" type="text/css">
 <link href="app.css" rel="stylesheet" type="text/css">
-</head>
 
-<h3 class="h center">Kempy search</h3>
+
+<h3 class="textp">Kempy search</h3>
 	
-<body class="h">
+<body>
+	<div class="h">
 	<div id="search-box">
 	<script async src="https://cse.google.com/cse.js?cx=d0a2c4acacefd8029">
 	(function()
@@ -30,7 +85,7 @@
      }</script>
 	<div class="gcse-searchbox-only" data-resultsUrl="sr"></div>
 		</div>
-
+</div>
 </body>
 
 </html>
