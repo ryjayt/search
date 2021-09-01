@@ -1,0 +1,43 @@
+@charset "utf-8";
+.title {
+    color: #C729DC;
+    font-size: 41px;
+    font-weight: bold;
+    border-bottom: 7px dotted #CF62F3;
+    max-width: 362px;
+}
+.na {
+    color: #FFFFFF;
+    font-size: 25px;
+    background-color: #750AEB;
+    margin-top: 19px;
+    padding-top: 10px;
+    position: relative;
+    left: 5px;
+    border-radius: 19px;
+    padding-left: 17px;
+    padding-bottom: 8px;
+    display: inline-block;
+    padding-right: 25px;
+    max-width: 598px;
+    min-width: 100px;
+}
+.heade {
+    background-color: #6C03EF;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-left: -4px;
+    margin-right: 1px;
+    min-height: 40px;
+    padding-top: 23px;
+}
+.edit {
+    color: #AFAFAF;
+    font-size: 14px;
+}
+.subtitle {
+    color: #8662FF;
+    font-size: 21px;
+    border-bottom: 4px dashed #587DF3;
+    max-width: 568px;
+}
